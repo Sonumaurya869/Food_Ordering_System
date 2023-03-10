@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+ width: 100%;   
+}
+.tbl_30{
+    width: 30%;
+}
+
+
+
+table tr th{
+  border-bottom: 1px solid black;
+  padding: 1%; 
+  text-align: left; 
+}
+table tr td{
+    padding: 2%;
+}
+.btn-primary{
+    background: blueviolet;
+    padding: 1%;
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    color: aqua;
+}
+
+
+.btn-secundry{
+    background: rgb(11, 221, 102);
+    padding: 1%;
+    margin: 2%;
+    color: rgb(23, 11, 11);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secundry:hover{
+    color: rgb(184, 243, 8);
+}
+
+
+.btn{
+    background: rgb(219, 166, 7);
+    padding: 1%;
+    margin: 2%;
+    border: 2px solid rgb(112, 7, 111);
+    color: rgb(23, 11, 11);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: rgba(243, 59, 8, 0.92);
+}
+
+
+.btn-denger{
+    background: rgb(240, 100, 112);
+    padding: 1%;
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-denger:hover{
+    color: rgb(243, 8, 8);
+}
+.success{
+    color: rgb(55, 234, 55);
+}
+.error{
+    color: red
+}
+
+
+.manu{
+    border-bottom: 1px solid rgb(234, 190, 190);
+}
+.manu ul{
+    list-style-type: none;
+}
+.manu ul li{
+    display: inline;
+    padding: 1%;
+}
+.manu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(241, 116, 116);
+}
+.manu ul li a:hover{
+    color: red;
+}
+ /*  main content*/
+ .main-content{
+  background: #e5dfdf;
+  padding: 3% 0;
+ }
+.col-4{
+    width: 18%;
+    background: rgb(249, 249, 247);
+    margin: 1%;
+    padding: 1.5%;
+    float: left;
+}
+
+.footer{
+    background:rgb(210, 34, 34);
+    color: white;
+}
+
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    
+}
